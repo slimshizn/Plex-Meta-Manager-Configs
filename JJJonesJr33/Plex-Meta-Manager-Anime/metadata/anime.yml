@@ -1,16 +1,6 @@
 ##############################################################
 ##                  Anime Collections                       ##
 ##                Created by JJJonesJr33                    ##
-##                      Version 2.0                         ##
-##############################################################
-##############################################################
-##                                                          ##
-##            User/Config Credits - Special Thanks          ##
-##                                                          ##
-##               Yozora, Bullmoose20, & Sohjiro             ##
-##   Glasti1, Hiren-Z, OhMyBahGosh, tuxpeople, cpt-kuesel   ##
-##      meisnate12, TheUnchainedZebra, Evil Tacctician      ##
-##                                                          ##
 ##############################################################
 
 #######################
@@ -19,8 +9,11 @@
 
 templates:
   Anime:
-    mal_genre:
-      genre_id: <<mal_id>>
+    mal_search:
+      sort_by: score.asc
+      genre: <<mal_id>>
+      limit: 0
+      sfw: false
     url_poster: https://theposterdb.com/api/assets/<<poster>>
     collection_order: alpha
     collection_mode: hide
@@ -32,7 +25,7 @@ templates:
       username: <<username>>
       status: plan_to_watch
       sort_by: title
-      limit: 500
+      limit: 0
     collection_order: alpha
     collection_mode: hide
     sync_mode: sync    
@@ -43,20 +36,51 @@ templates:
 
 collections:
 
+  Top Anime Series:
+    mal_tv: 20
+    limit: 50
+    collection_order: custom
+    sort_title: ++++++++_Top_Anime_Series
+    sync_mode: sync
+
+  Top Anime OVA Series:
+    mal_ova: 20
+    limit: 50
+    collection_order: custom
+    sort_title: ++++++++_Top_Anime_OVA_Series
+    sync_mode: sync
+
+  Top Anime Specials:
+    mal_special: 20
+    limit: 50
+    collection_order: custom
+    sort_title: ++++++++_Top_Anime_Specials
+    sync_mode: sync
+    
   Top Airing Anime:
     mal_airing: 10
+    limit: 50
     collection_order: custom
     sort_title: ++++++++_Top_Airing
     sync_mode: sync
+
+  Top Upcoming Anime:
+    mal_upcoming: 10
+    limit: 50
+    collection_order: custom
+    sync_mode: sync
+    sort_title: ++++++++_Top_Upcoming
     
   Most Popular Anime:
     mal_popular: 20
+    limit: 250
     collection_order: custom
     sort_title: ++++++++_Most_Popular
     sync_mode: sync
     
   Most Favorited Anime:
     mal_favorite: 20
+    limit: 250
     collection_order: custom
     sort_title: ++++++++_Most_Favorited
     sync_mode: sync
@@ -64,6 +88,9 @@ collections:
   Seasonal Winter:
     mal_season:
       season: winter
+      sort_by: score
+      year: 2023
+      limit: 500
     collection_order: custom
     sort_title: +++++++_Winter
     sync_mode: sync
@@ -71,6 +98,9 @@ collections:
   Seasonal Spring:
     mal_season:
       season: spring
+      sort_by: score
+      year: 2023
+      limit: 500
     collection_order: custom
     sort_title: +++++++_Spring
     sync_mode: sync
@@ -78,6 +108,9 @@ collections:
   Seasonal Summer:
     mal_season:
       season: summer
+      sort_by: score
+      year: 2023
+      limit: 500
     collection_order: custom
     sort_title: +++++++_Summer
     sync_mode: sync
@@ -85,8 +118,20 @@ collections:
   Seasonal Fall:
     mal_season:
       season: fall
+      sort_by: score
+      year: 2023
+      limit: 500
     collection_order: custom
     sort_title: +++++++_Fall
+    sync_mode: sync
+    
+  Current:
+    mal_season:
+      season: current
+      sort_by: score
+      limit: 500
+    collection_order: custom
+    sort_title: +++++++_Current
     sync_mode: sync
     
 #############################
@@ -207,7 +252,7 @@ collections:
     template: { name: Anime, mal_id: 72, poster: 240867} 
   Reverse Harem:
     template: { name: Anime, mal_id: 73, poster: } 
-  Romantic Subtext:
+  Love Status Quo:
     template: { name: Anime, mal_id: 74, poster: } 
   Samurai:
     template: { name: Anime, mal_id: 21, poster: 213669} 
@@ -245,6 +290,10 @@ collections:
     template: { name: Anime, mal_id: 25, poster: 240214} 
   Shounen:
     template: { name: Anime, mal_id: 27, poster: 240215} 
+  Urban Fantasy:
+    template: { name: Anime, mal_id: 82, poster: } 
+  Villainess:
+    template: { name: Anime, mal_id: 83, poster: } 
 
   # Collection1: # Replace Username1 with a valid MAL Username
     # template: { name: User, username: Username1, poster:  }

@@ -1,5 +1,10 @@
 metadata:               #Posters found here https://theposterdb.com/set/98242
 
+  "Hocus Pocus (1993)":
+    title: "Hocus Pocus"
+    year: 1993
+    url_poster: https://theposterdb.com/api/assets/173300
+
   "The Return of Jafar (1994)":
     title: "The Return of Jafar"
     year: 1994
@@ -59,6 +64,11 @@ metadata:               #Posters found here https://theposterdb.com/set/98242
     title: "The Santa Clause 3: The Escape Clause"
     year: 2006
     url_poster: https://theposterdb.com/api/assets/189956
+
+  "Enchanted (2007)":
+    title: "Enchanted"
+    year: 2007
+    url_poster: https://theposterdb.com/api/assets/288103
 
   "A Christmas Carol (2009)":
     title: "A Christmas Carol"
@@ -139,3 +149,23 @@ metadata:               #Posters found here https://theposterdb.com/set/98242
     title: "Jungle Cruise"
     year: 2021
     url_poster: https://theposterdb.com/api/assets/173315
+
+  "Pinocchio (2022)":
+    title: "Pinocchio"
+    year: 2022
+    url_poster: https://theposterdb.com/api/assets/262103
+
+  "Hocus Pocus 2 (2022)":
+    title: "Hocus Pocus 2"
+    year: 2022
+    url_poster: https://theposterdb.com/api/assets/270265
+
+  "Disenchanted (2022)":
+    title: "Disenchanted"
+    year: 2022
+    url_poster: https://theposterdb.com/api/assets/288104
+
+  "Chip 'n Dale: Rescue Rangers (2022)":
+    title: "Chip 'n Dale: Rescue Rangers"
+    year: 2022
+    url_poster: https://theposterdb.com/api/assets/237979
