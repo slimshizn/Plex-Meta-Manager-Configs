@@ -1,20 +1,15 @@
-# <img src="https://metamanager.wiki/en/latest/_static/logo-full.png" alt="PMM">
+# IMPORTANT DISCLAIMER
 
-# Sponsored and User Configs
+This repo contains community-sourced configurations.
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/meisnate12/Plex-Meta-Manager?style=plastic)](https://github.com/meisnate12/Plex-Meta-Manager/releases)
-[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/meisnate12/plex-meta-manager?label=docker&sort=semver&style=plastic)](https://hub.docker.com/r/meisnate12/plex-meta-manager)
-[![Docker Pulls](https://img.shields.io/docker/pulls/meisnate12/plex-meta-manager?style=plastic)](https://hub.docker.com/r/meisnate12/plex-meta-manager)
-[![Develop GitHub commits since latest stable release (by SemVer)](https://img.shields.io/github/commits-since/meisnate12/plex-meta-manager/latest/develop?label=Commits%20in%20Develop&style=plastic)](https://github.com/meisnate12/Plex-Meta-Manager/tree/develop)
-[![Nightly GitHub commits since latest stable release (by SemVer)](https://img.shields.io/github/commits-since/meisnate12/plex-meta-manager/latest/nightly?label=Commits%20in%20Nightly&style=plastic)](https://github.com/meisnate12/Plex-Meta-Manager/tree/nightly)
+They are, **for the most part**, not maintained, warranted, or tested by the Kometa team.
 
-[![Discord](https://img.shields.io/discord/822460010649878528?label=Discord&style=plastic)](https://discord.gg/NfH6mGFuAB)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/meisnate12/plex-meta-manager?style=plastic)](https://hub.docker.com/r/meisnate12/plex-meta-manager)
-[![Wiki](https://img.shields.io/readthedocs/plex-meta-manager?style=plastic)](https://metamanager.wiki)
-[![Sponsor or Donate](https://img.shields.io/badge/-Sponsor_or_Donate-blueviolet?style=plastic)](https://github.com/sponsors/meisnate12)
+There are **some** in here which are supplied and maintained by members of the Kometa team on their own, but, overall, maintenance of these configs is the individual responsibility of the people supplying them.
 
-This is a repo for users to share their [Plex Meta Manager](https://github.com/meisnate12/Plex-Meta-Manager) configs with other users. Just create a fork and add a folder with your github name and put your configs inside and then submit a pull request.
+They may or may not:
+1. do what you want
+2. work at all
+3. cause data loss
+4. kick your puppy
 
-The default set of Plex Meta Manager Sponsored Configs is located in the [PMM Folder](https://github.com/meisnate12/Plex-Meta-Manager-Configs/tree/master/PMM). For more information on how to use them visit the [Defaults Metadata Guide](https://metamanager.wiki/en/latest/home/guides/defaults.html).
-
-Please consider [donating](https://github.com/sponsors/meisnate12) towards the project.
+If you use anything in this repo, you are taking sole responsibility for that decision.

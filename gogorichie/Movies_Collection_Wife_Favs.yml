@@ -10,8 +10,8 @@ collections:
     summary: Because your husband loves you and thought you might like this playlist. Starring Anne Hathaway, Anna Kendrick, Emma Stone, Meg Ryan.
     schedule: weekly(sunday)
     collection_order: alpha
-  Oscars:
-    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+  Oscar Winners:
+    imdb_search: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     collection_order: release
     summary: Oscar Winning Movies
     schedule: monthly(1), monthly(15)

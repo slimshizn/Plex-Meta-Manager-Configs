@@ -158,7 +158,12 @@ metadata:               #Posters found here https://theposterdb.com/user/musikma
   "Black Panther: Wakanda Forever (2022)":
     title: "Black Panther: Wakanda Forever"
     year: 2022
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/279102
+
+  "The Guardians of the Galaxy Holiday Special (2022)":
+    title: "The Guardians of the Galaxy Holiday Special"
+    year: 2022
+    url_poster: https://theposterdb.com/api/assets/291178
 
   "The Marvels (2023)":
     title: "The Marvels"
@@ -173,7 +178,7 @@ metadata:               #Posters found here https://theposterdb.com/user/musikma
   "Ant-Man and the Wasp: Quantumania (2023)":
     title: "Ant-Man and the Wasp: Quantumania"
     year: 2023
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/297409
 
 #Marvel One-Shot:
   "Marvel One-Shot: The Consultant (2011)":
@@ -407,3 +412,14 @@ metadata:               #Posters found here https://theposterdb.com/user/musikma
     title: "The New Mutants"
     year: 2020
     url_poster: https://theposterdb.com/api/assets/171120
+
+#Wherewolf by Night:
+  "Werewolf by Night (2022)":
+    title: "Werewolf by Night"
+    year: 2022
+    url_poster: https://theposterdb.com/api/assets/275852
+
+  "Director by Night (2022)":
+    title: "Director by Night"
+    year: 2022
+    url_poster: https://theposterdb.com/api/assets/288110
